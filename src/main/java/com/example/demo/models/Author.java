@@ -23,7 +23,7 @@ public class Author {
     private String name;
     @Column(name = "surname")
     private String surname;
-    @JsonManagedReference
-    @OneToMany(mappedBy = "author", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private List<Book> books;
+//    @JsonManagedReference
+//    @OneToMany(mappedBy = "author", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+//    private List<Book> books;
 }
